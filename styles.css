@@ -15,6 +15,7 @@ header{
 
 main{
     background-color: red;
+    padding: 50px;
 }
 
 section{
@@ -23,9 +24,21 @@ section{
 
 footer{
     background-color: limegreen;
-    padding: 50px 0px;
+    padding: 30px 0px;
 }
 
 nav{
     background-color: orange;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0px;
+}
+
+nav ul li {
+    background-color: cornflowerblue;
+    padding: 5px 0px;
+    display: inline-block;
+    width: 20%;
 }
