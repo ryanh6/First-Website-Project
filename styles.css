@@ -22,6 +22,32 @@ section{
     background-color: burlywood;
 }
 
+section ul {
+    text-align: center;
+    background-color: darkcyan;
+    list-style: none;
+    padding: 0;
+    font-size: 0px;
+}
+
+.boxes ul li{
+    background-color: magenta;
+    padding: 20% 0%;
+    font-size: 16px;
+    display: inline-block;
+    width: 30%;
+    margin: 0% 1%;
+}
+
+.stripes ul li{
+    background-color: turquoise;
+    font-size: 16px;
+    display: block;
+    padding: 5% 5%;
+    margin: 10px 0px;
+    text-align: left;
+}
+
 footer{
     background-color: limegreen;
     padding: 30px 0px;
