@@ -38,6 +38,11 @@ main{
     padding: 50px;
 }
 
+.page1{
+    padding: 0px;
+    padding-left: 10%;
+}
+
 section{
     background-color: burlywood;
 }
@@ -66,6 +71,15 @@ section ul {
     padding: 5% 5%;
     margin: 10px 0px;
     text-align: left;
+}
+
+.stripesAlt ul li{
+    background-color: brown;
+    font-size: 16px;
+    display: block;
+    text-align: left;
+    padding: 20% 5%;
+    margin: 5px 0px;
 }
 
 footer{
