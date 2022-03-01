@@ -23,15 +23,17 @@ nav ul li {
     background-color: cornflowerblue;
     display: inline-block;
     width: 25%;
+    padding: 25px 0px;
+    text-align: center;
 }
 
 button{
     background-color: blue;
     border: none;
-    text-align: center;
     width: 100%;
-    padding: 25px 0px;
+    height: 100%;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .banner{
