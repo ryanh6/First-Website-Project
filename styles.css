@@ -8,6 +8,20 @@ header{
     background-color: purple;
 }
 
+.homePage header{
+    background-image: spaceImagejpg;
+}
+
+.banner{
+    background-color: pink;
+    padding: 15%;
+    text-align: center;
+}
+
+.page2 .banner{
+    background-color: teal;
+}
+
 nav{
     background-color: orange;
 }
@@ -34,12 +48,6 @@ button{
     height: 100%;
     font-size: 16px;
     cursor: pointer;
-}
-
-.banner{
-    background-color: pink;
-    padding: 15%;
-    text-align: center;
 }
 
 main{
