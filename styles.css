@@ -75,19 +75,23 @@ section ul {
 
 .boxes ul li{
     background-color: magenta;
-    padding: 20% 0%;
     font-size: 16px;
     display: inline-block;
-    width: 30%;
-    margin: 0% 1%;
+    width: 33.333%;
+}
+
+.boxes ul li button{
+    padding: 70% 0%;
 }
 
 .stripes ul li{
     background-color: turquoise;
     font-size: 16px;
     display: block;
+}
+
+.stripes ul li button{
     padding: 5% 5%;
-    margin: 10px 0px;
     text-align: left;
 }
 
