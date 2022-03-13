@@ -18,6 +18,10 @@ header{
     background-image: url('city.jpeg');
 }
 
+.page2 header{
+    background-image: url('landscape.jpg');
+}
+
 .banner{
     background: rgba(0,0,0,0.5);
     color: white;
@@ -61,7 +65,17 @@ nav button{
 
 main{
     background-color: red;
+    padding: 0px;
+}
+
+.homePage main{
     padding: 50px;
+}
+
+.page3 main{
+    background-image: url('whatCodingLooksLikeToPeopleWhoDoNotCode.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 section{
@@ -78,6 +92,12 @@ section ul {
     font-size: 16px;
     display: inline-block;
     width: 33.333%;
+}
+
+
+.page2 .boxes ul li{
+    margin: 5px;
+    width: 330px;
 }
 
 .boxes ul li button{
