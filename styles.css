@@ -63,6 +63,10 @@ button{
     cursor: pointer;
 }
 
+button:hover{
+    background-color: aqua;
+}
+
 nav button{
     padding: 25px 0px;
 }
