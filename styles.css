@@ -86,6 +86,17 @@ button{
     background-position: 0%;
 }
 
+.downSwipeButton{
+    background-image: linear-gradient(to bottom, transparent 50%, lightgrey 50%);
+    background-size: 100% 200%;
+    background-position: 0% 100%;
+}
+
+.downSwipeButton:hover{
+    color: white;
+    background-position: 100% 0%;
+}
+
 .fadeButton{
     background-color: lightgrey;
     padding: 25px 0px;
