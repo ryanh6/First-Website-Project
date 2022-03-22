@@ -10,10 +10,6 @@ header{
     background-size: cover;
 }
 
-h2{
-    text-align: center;
-}
-
 .homePage header{
     background-image: url('spaceImage.jpg');
 }
@@ -124,11 +120,6 @@ section ul {
     width: 33.333%;
 }
 
-.page2 .boxes ul li{
-    margin: 20px;
-    width: 330px;
-}
-
 .boxes ul li button{
     padding: 70% 0%;
 }
@@ -150,7 +141,6 @@ section ul {
     display: block;
     text-align: left;
     padding: 20% 5%;
-    margin: 5px 0px;
 }
 
 footer{
