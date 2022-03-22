@@ -61,46 +61,6 @@ nav ul li {
     width: 25%;
 }
 
-button{
-    border: none;
-    width: 100%;
-    font-size: 16px;
-    cursor: pointer;
-    transition: 0.5s;
-}
-
-.leftSwipeButton{
-    background-image: linear-gradient(to right, transparent 50%, lightgrey 50%);
-    background-size: 200%;
-    background-position: 100%;
-}
-
-.leftSwipeButton:hover{
-    color: white;
-    background-position: 0%;
-}
-
-.downSwipeButton{
-    background-image: linear-gradient(to bottom, transparent 50%, lightgrey 50%);
-    background-size: 100% 200%;
-    background-position: 0% 100%;
-}
-
-.downSwipeButton:hover{
-    color: white;
-    background-position: 100% 0%;
-}
-
-.fadeButton{
-    background-color: lightgrey;
-    padding: 25px 0px;
-}
-
-.fadeButton:hover{
-    color: white;
-    background-color: black;
-}
-
 main{
     background-color: red;
     padding: 0px;
@@ -152,4 +112,44 @@ section ul {
 footer{
     background-color: limegreen;
     padding: 30px 20px;
+}
+
+button{
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.leftSwipeButton{
+    background-image: linear-gradient(to right, transparent 50%, lightgrey 50%);
+    background-size: 200%;
+    background-position: 100%;
+}
+
+.leftSwipeButton:hover{
+    color: white;
+    background-position: 0%;
+}
+
+.downSwipeButton{
+    background-image: linear-gradient(to bottom, transparent 50%, lightgrey 50%);
+    background-size: 100% 200%;
+    background-position: 0% 100%;
+}
+
+.downSwipeButton:hover{
+    color: white;
+    background-position: 100% 0%;
+}
+
+.fadeButton{
+    background-color: lightgrey;
+    padding: 25px 0px;
+}
+
+.fadeButton:hover{
+    color: white;
+    background-color: black;
 }
