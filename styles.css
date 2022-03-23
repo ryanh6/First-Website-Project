@@ -72,11 +72,8 @@ main{
 
 section{
     background-color: burlywood;
-}
-
-section ul {
     text-align: center;
-    background-color: darkcyan;
+    padding: 3%;
 }
 
 .boxes ul li{
@@ -94,19 +91,12 @@ section ul {
     background-color: turquoise;
     font-size: 16px;
     display: block;
-}
-
-.stripes ul li button{
     padding: 5% 5%;
     text-align: left;
 }
 
-.stripesAlt ul li{
-    background-color: brown;
-    font-size: 16px;
-    display: block;
+.stripes ul li button{
     text-align: left;
-    padding: 20% 5%;
 }
 
 footer{
@@ -135,7 +125,7 @@ button{
 
 .downSwipeButton{
     background-image: linear-gradient(to bottom, transparent 50%, lightgrey 50%);
-    background-size: 100% 200%;
+    background-size: 100% 201%;
     background-position: 0% 100%;
 }
 
