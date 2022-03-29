@@ -71,6 +71,10 @@ main{
     padding: 50px;
 }
 
+.page2 main{
+    background-color: white;
+}
+
 section{
     background-color: burlywood;
     text-align: center;
