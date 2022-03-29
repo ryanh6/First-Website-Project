@@ -90,11 +90,6 @@ section{
     text-align: left;
 }
 
-footer{
-    background-color: limegreen;
-    padding: 30px 20px;
-}
-
 button{
     border: none;
     width: 100%;
@@ -134,4 +129,10 @@ button{
 .fadeButton:hover{
     color: white;
     background-color: black;
+}
+
+footer{
+    color: white;
+    background-color: limegreen;
+    padding: 30px 30px 25px 30px;
 }
