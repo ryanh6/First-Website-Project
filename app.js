@@ -25,5 +25,17 @@ document.write("NEW Array: ", a, " (Oh its there)<br>");
 document.write("A DIFFERENT RANDOM LETTER FROM ARRAY A: ", a[x], "<br>");
 */
 
-var text = document.getElementById("demo");
 
+window.onload = function()
+{
+    page2LoadUp();
+}
+
+function page2LoadUp()
+{
+
+    var text = document.getElementById("demo");
+    var randomNumber = Math.floor((Math.random()*100));
+
+    text.innerHTML = (randomNumber);
+}
