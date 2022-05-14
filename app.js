@@ -24,3 +24,6 @@ document.write("NEW Random Number is: ", x, "<br>");
 document.write("NEW Array: ", a, " (Oh its there)<br>");
 document.write("A DIFFERENT RANDOM LETTER FROM ARRAY A: ", a[x], "<br>");
 */
+
+var text = document.getElementById("demo");
+
