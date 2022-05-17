@@ -56,7 +56,11 @@ function page2LoadUp()
                   "Page2Images/5BlueWaves1.jpg", "Page2Images/5BlueWaves2.jpg", "Page2Images/5BlueWaves3.jpg", "Page2Images/5BlueWaves4.jpg", "Page2Images/5BlueWaves5.jpg", "Page2Images/5BlueWaves6.jpg",
                   "Page2Images/6PurpleFlowers1.jpg", "Page2Images/6PurpleFlowers2.jpg", "Page2Images/6PurpleFlowers3.jpg", "Page2Images/6PurpleFlowers4.jpg", "Page2Images/6PurpleFlowers5.jpg", "Page2Images/6PurpleFlowers6.jpg"]
 
-    var image = document.getElementById("picture");
+    var text = document.getElementById("demo");
     var randomNumber = Math.floor((Math.random()*imageArray.length));
+    text.innerHTML = (randomNumber);
+
+    var image = document.getElementById("picture");
+    //var randomNumber = Math.floor((Math.random()*imageArray.length));
     image.src = (imageArray[randomNumber]);
 }
