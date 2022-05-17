@@ -33,15 +33,22 @@ window.onload = function()
 
 function page2LoadUp()
 {
-    imageArray = ["A", "B", "C", "D", "E", "F",
-                  "G", "H", "I", "J", "K", "L",
-                  "M", "N", "O", "P", "Q", "R",
-                  "S", "T", "U", "V", "W", "X",
-                  "Y", "Z", "a", "b", "c", "d",
-                  "e", "f", "g", "h", "i", "j"]
+    wordArray = [ ["A", "B", "C", "D", "E", "F"],
+                   ["G", "H", "I", "J", "K", "L"],
+                   ["M", "N", "O", "P", "Q", "R"],
+                   ["S", "T", "U", "V", "W", "X"],
+                   ["Y", "Z", "a", "b", "c", "d"],
+                   ["e", "f", "g", "h", "i", "j"] ]
 
+    imageArray = ["Page2Images/1RedDesserts1.jpg", "Page2Images/1RedDesserts2.jpg"]
+
+    /*
     var text = document.getElementById("demo");
-    var randomNumber = Math.floor((Math.random()*imageArray.length));
+    var randomNumber = Math.floor((Math.random()*wordArray.length));
+    text.innerHTML = (wordArray[randomNumber]);
+    */
 
-    text.innerHTML = (imageArray[randomNumber]);
+    var image = document.getElementById("picture");
+    var randomNumber = Math.floor((Math.random()*2));
+    image.src = (imageArray[randomNumber]);
 }
