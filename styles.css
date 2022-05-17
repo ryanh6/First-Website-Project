@@ -144,10 +144,4 @@ footer{
 #picture{
     width: 300px;
     height: 300px;
-    filter: grayscale(100%);
-    transition: 1s;
-}
-
-#picture:hover{
-    filter: grayscale(0);
 }
